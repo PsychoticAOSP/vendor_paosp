@@ -2,10 +2,10 @@
 $(call inherit-product, device/lge/hammerhead/full_hammerhead.mk)
 
 # Inherit common product files
-$(call inherit-product, vendor/frank/configs/common.mk)
+$(call inherit-product, vendor/paosp/configs/common.mk)
 
 # Setup device specific product configuration
-PRODUCT_NAME := frankened_hammerhead
+PRODUCT_NAME := paosp_hammerhead
 PRODUCT_BRAND := google
 PRODUCT_DEVICE := hammerhead
 PRODUCT_MODEL := Nexus 5
