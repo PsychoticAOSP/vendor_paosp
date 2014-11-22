@@ -1,8 +1,8 @@
 # Brand
-PRODUCT_BRAND ?= frank
+PRODUCT_BRAND ?= paosp
 
 # Local path for prebuilts
-LOCAL_PATH:= vendor/frank/prebuilts/common/system
+LOCAL_PATH:= vendor/paosp/prebuilts/common/system
 
 # Common build prop overrides 
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -27,7 +27,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     net.tethering.noprovisioning=true 
 
 # Common overlays
-PRODUCT_PACKAGE_OVERLAYS += vendor/frank/overlays/common
+PRODUCT_PACKAGE_OVERLAYS += vendor/paosp/overlays/common
 
 # Needed Packages
 PRODUCT_PACKAGES += Launcher3
